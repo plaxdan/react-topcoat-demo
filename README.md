@@ -2,8 +2,6 @@ React Topcoat Demo
 ===
 This repository is a sandbox for the [react-topcoat](https://github.com/plaxdan/react-topcoat) library.
 
-![Imgur](http://i.imgur.com/8SMZKoc.png)
-
 The project builds to a simple app containing each of the Topcoat components. This repo is also being used to experiment with various ways of packaging a webapp with including:
 
 - Standard webapp
@@ -50,9 +48,29 @@ Run tasks:
 - `gulp run:android` `[--emulator]` runs the android
 - `gulp run:ios` `[--emulator]` runs the ios app
 
+### Running as a Web App
 
-### Running the Chrome App
-To run the chrome app go to [`chrome://extensions`](chrome://extensions) and either:
+Run: `gulp run:web`
+
+![Imgur](http://i.imgur.com/KYnylBn.png)
+
+### Running as a Chrome App
+
+Run `gulp dist` then go to [`chrome://extensions`](chrome://extensions) and either:
 
 - drag `dist/chrome/react-topcoat.crx` to the window
 - or load `build/chrome` as an unpacked extension
+
+![Imgur](http://i.imgur.com/NxxFO1k.png)
+
+### Running in the iOS Emulator
+
+Run: `gulp run:ios --emulator` (omit --emulator if you have a device connected)
+
+![Imgur](http://i.imgur.com/8SMZKoc.png)
+
+### Running in the Android Emulator
+
+Run: `gulp run:android --emulator` (omit --emulator if you have a device connected)
+
+![Imgur](http://i.imgur.com/h1koQV0.png)
