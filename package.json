@@ -1,0 +1,41 @@
+{
+  "name": "react-topcoat",
+  "version": "0.0.1",
+  "dependencies": {
+    "react": "~0.9.0",
+    "lodash": "~2.4.1",
+    "async": "~0.2.10",
+    "when": "~2.7.1",
+    "topcoat": "^0.7.5"
+  },
+  "devDependencies": {
+    "gulp": "~3.5.0",
+    "gulp-util": "~2.2.10",
+    "gulp-concat": "~2.1.7",
+    "gulp-uglify": "~0.1.0",
+    "gulp-minify-css": "~0.2.0",
+    "gulp-rename": "~0.2.2",
+    "connect": "~2.12.0",
+    "open": "~0.0.4",
+    "gulp-bower": "0.0.2",
+    "gulp-sass": "~0.5.2",
+    "gulp-livereload": "~0.2.0",
+    "tiny-lr": "0.0.5",
+    "gulp-open": "~0.2.8",
+    "gulp-browserify": "~0.3.4",
+    "gulp-embedlr": "~0.5.2",
+    "gulp-clean": "~0.2.4",
+    "chai": "~1.8.1",
+    "sinon": "~1.7.3",
+    "sinon-chai": "~2.4.0",
+    "gulp-mocha": "~0.4.1",
+    "mocha": "~1.17.1",
+    "event-stream": "~3.1.0",
+    "coffee-script": "~1.7.1",
+    "gulp-coffee": "~1.4.1",
+    "cca": "0.0.5",
+    "ios-sim": "^1.8.2",
+    "execSync": "^1.0.1-pre",
+    "ios-deploy": "^1.0.4"
+  }
+}

@@ -1,0 +1,16 @@
+// Chrome App Manifest
+{
+  "name": "React Topcoat",
+  "manifest_version": 2,
+  "description": "React Topcoat Demo.",
+  "version": "0.1",
+  "app": {
+    "background": {
+      "scripts": ["chromeapp.js"]
+    }
+  }
+  // "icons": {
+  //   "16": "images/todo",
+  //   "128": "images/todo"
+  // }
+}

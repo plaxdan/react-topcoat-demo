@@ -1,0 +1,35 @@
+.DS_Store
+*.sublime-workspace
+node_modules
+npm-debug.log
+dist/
+build/
+.idea/
+.sass-cache/
+.tmp/
+bower_components/
+tmp/
+
+###Android###
+
+# built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+###Cordova###
+cordova/platforms/**/.staging/
+cordova/platforms/**/build/
+cordova/platforms/**/*.log
+cordova/platforms/**/www/**/*
+cordova/platforms/android/ant-build/
+cordova/platforms/android/ant-gen/
+cordova/platforms/android/CordovaLib/
