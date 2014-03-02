@@ -1,23 +1,24 @@
 
 React = require 'react/addons'
-Button = require './topcoat/button/button'
-ButtonBar = require './topcoat/buttonbar/buttonbar'
-ButtonBarButton = require './topcoat/buttonbar/buttonbarbutton'
-Checkbox = require './topcoat/checkbox/checkbox'
-Input = require './topcoat/input/input'
-List = require './topcoat/list/list'
-ListHeader = require './topcoat/list/listheader'
-ListItems = require './topcoat/list/listitems'
-NavigationBar = require './topcoat/navigationbar/navigationbar'
-NavigationBarItem = require './topcoat/navigationbar/navigationbaritem'
-Notification = require './topcoat/notification/notification'
-RadioButton = require './topcoat/radiobutton/radiobutton'
-Range = require './topcoat/range/range'
-SearchInput = require './topcoat/searchinput/searchinput'
-Switch = require './topcoat/switch/switch'
-Tab = require './topcoat/tabbar/tab'
-TabBar = require './topcoat/tabbar/tabbar'
-TextArea = require './topcoat/textarea/textarea'
+ReactTopcoat = require 'react-topcoat'
+Button = ReactTopcoat.Button
+ButtonBar = ReactTopcoat.ButtonBar
+ButtonBarButton = ReactTopcoat.ButtonBarButton
+Checkbox = ReactTopcoat.Checkbox
+Input = ReactTopcoat.Input
+List = ReactTopcoat.List
+ListHeader = ReactTopcoat.ListHeader
+ListItems = ReactTopcoat.ListItems
+NavigationBar = ReactTopcoat.NavigationBar
+NavigationBarItem = ReactTopcoat.NavigationBarItem
+Notification = ReactTopcoat.Notification
+RadioButton = ReactTopcoat.RadioButton
+Range = ReactTopcoat.Range
+SearchInput = ReactTopcoat.SearchInput
+Switch = ReactTopcoat.Switch
+Tab = ReactTopcoat.Tab
+TabBar = ReactTopcoat.TabBar
+TextArea = ReactTopcoat.TextArea
 
 {div, h1, hr, p, button} = React.DOM
 
