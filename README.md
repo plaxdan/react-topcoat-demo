@@ -1,10 +1,10 @@
-React Topcoat
+React Topcoat Demo
 ===
-This repository is a sandbox for the creation of [Topcoat](topcoat.io) components with the [React](facebook.github.io/react/) library.
+This repository is a sandbox for the [react-topcoat](https://github.com/plaxdan/react-topcoat) library.
 
-Currently the project builds to a simple app containing each of the Topcoat components. The intention is to package the lib to npm and then have this repo contain a basic sample app using the lib.
+![Imgur](http://i.imgur.com/8SMZKoc.png)
 
-This repo is also being used to experiment with various ways of packaging a webapp with including as:
+The project builds to a simple app containing each of the Topcoat components. This repo is also being used to experiment with various ways of packaging a webapp with including:
 
 - Standard webapp
 - [Chrome app](https://developer.chrome.com/apps/about_apps)
@@ -46,12 +46,13 @@ Dist tasks:
 Run tasks:
 
 - `gulp run:test` runs mocha tests in console
-- `gulp run:web` runs the web/test server on port 3000
-- `gulp run:ios` `[--emulator]` runs the ios app
+- `gulp run:web` runs the app at [`http://localhost:3000`](http://localhost:3000) and the mocha test server at [`http://localhost:3000/test.html`](http://localhost:3000/test.html)
 - `gulp run:android` `[--emulator]` runs the android
+- `gulp run:ios` `[--emulator]` runs the ios app
+
 
 ### Running the Chrome App
-To run the chrome app go to chrome://extensions and either:
+To run the chrome app go to [`chrome://extensions`](chrome://extensions) and either:
 
 - drag `dist/chrome/react-topcoat.crx` to the window
 - or load `build/chrome` as an unpacked extension

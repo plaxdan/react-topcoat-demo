@@ -1,25 +1,27 @@
 
 React = require 'react/addons'
 ReactTopcoat = require 'react-topcoat'
-Button = ReactTopcoat.Button
-ButtonBar = ReactTopcoat.ButtonBar
-ButtonBarButton = ReactTopcoat.ButtonBarButton
-Checkbox = ReactTopcoat.Checkbox
-Input = ReactTopcoat.Input
-List = ReactTopcoat.List
-ListHeader = ReactTopcoat.ListHeader
-ListItems = ReactTopcoat.ListItems
-NavigationBar = ReactTopcoat.NavigationBar
-NavigationBarItem = ReactTopcoat.NavigationBarItem
-Notification = ReactTopcoat.Notification
-RadioButton = ReactTopcoat.RadioButton
-Range = ReactTopcoat.Range
-SearchInput = ReactTopcoat.SearchInput
-Switch = ReactTopcoat.Switch
-Tab = ReactTopcoat.Tab
-TabBar = ReactTopcoat.TabBar
-TextArea = ReactTopcoat.TextArea
 
+{
+  Button
+  ButtonBar
+  ButtonBarButton
+  Checkbox
+  Input
+  List
+  ListHeader
+  ListItems
+  NavigationBar
+  NavigationBarItem
+  Notification
+  RadioButton
+  Range
+  SearchInput
+  Switch
+  Tab
+  TabBar
+  TextArea
+} = ReactTopcoat
 {div, h1, hr, p, button} = React.DOM
 
 UI = React.createClass

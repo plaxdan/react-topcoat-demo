@@ -6,7 +6,8 @@
     "lodash": "~2.4.1",
     "async": "~0.2.10",
     "when": "~2.7.1",
-    "topcoat": "^0.7.5"
+    "topcoat": "^0.7.5",
+    "react-topcoat": "git+https://github.com/plaxdan/react-topcoat.git"
   },
   "devDependencies": {
     "gulp": "~3.5.0",
