@@ -18,6 +18,8 @@ It is built with the following technologies:
 
 ### Build
 
+![Imgur](http://i.imgur.com/eBm2LfN.png)
+
 The project builds to:
 
 - `build/js` unminified js
@@ -28,7 +30,7 @@ The project builds to:
 
 Build tasks:
 
-- `gulp clean` deletes `./build` and `./cordova/platforms`
+- `gulp clean` deletes `./build`
 - `gulp` builds everything
 - `gulp build:web` creates `./build/js`, `./build/web`, and `./build/test`
 - `gulp build:chrome` creates a chrome app in `./build/chrome`
