@@ -26,10 +26,4 @@ tmp/
 local.properties
 
 ###Cordova###
-cordova/platforms/**/.staging/
-cordova/platforms/**/build/
-cordova/platforms/**/*.log
-cordova/platforms/**/www/**/*
-cordova/platforms/android/ant-build/
-cordova/platforms/android/ant-gen/
-cordova/platforms/android/CordovaLib/
+cordova/
