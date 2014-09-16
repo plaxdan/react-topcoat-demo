@@ -11,10 +11,10 @@ The project builds to a simple app containing each of the Topcoat components. Th
 
 It is built with the following technologies:
 
-- App: [ReactJS](facebook.github.io/react/) / [Topcoat](topcoat.io) / [SASS](sass-lang.com)
-- Tests: [Mocha](visionmedia.github.io/mocha/) / [Chai](chaijs.com) / [SinonJS](http://sinonjs.org/)
-- Build: [GulpJS](gulpjs.com) / [Bower](bower.io) / [Browserify](browserify.org) / [Cordova](cordova.apache.org) / [MobileChromeApps](https://github.com/MobileChromeApps/mobile-chrome-apps)
- - Note: Will likely be taking a look at alternatives to Browserify such as [Webpack](webpack.github.io)
+- App: [ReactJS](http://facebook.github.io/react/) / [Topcoat](http://topcoat.io) / [SASS](http://sass-lang.com)
+- Tests: [Mocha](http://visionmedia.github.io/mocha/) / [Chai](http://chaijs.com) / [SinonJS](http://sinonjs.org/)
+- Build: [GulpJS](http://gulpjs.com) / [Bower](http://bower.io) / [Browserify](http://browserify.org) / [Cordova](http://cordova.apache.org) / [MobileChromeApps](https://github.com/MobileChromeApps/mobile-chrome-apps)
+ - Note: Will likely be taking a look at alternatives to Browserify such as [Webpack](http://webpack.github.io)
 
 ### Build
 
